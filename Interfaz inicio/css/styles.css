@@ -20,7 +20,7 @@ html {
 } */
 
 header {
-display: flex;
+	display: flex;
 	width: 100%;
 }
 
@@ -81,7 +81,6 @@ p {
   transition: 200ms ease-in 200ms;
 }
 
-
 .card_content p{
 	font-size: .9em;
 	padding: 10px;
@@ -92,12 +91,12 @@ p {
 }
 
 .card_content h3{
- font-size: 1.1em;
- /* width: 90%; */
- margin-bottom: auto;
- padding: 0 10px;
- text-align: center;
- color: hsl(0, 0%, 20%);
+	font-size: 1.1em;
+	/* width: 90%; */
+	margin-bottom: auto;
+	padding: 0 10px;
+	text-align: center;
+	color: hsl(0, 0%, 20%);
 }
 
 .card_content a {
@@ -110,7 +109,7 @@ p {
 	transition: 0.5s;
 	text-align: center;
 	align-self: center;
-  }
+}
 
 .a_intro {
 	background: #0daf9a;
