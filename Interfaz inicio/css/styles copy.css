@@ -1,0 +1,134 @@
+p{
+	padding-left: 140px;
+	padding-right: 140px;
+	padding-top: 30px;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	color: #9E9E9D;
+}
+
+h5{
+	margin: 40px;
+	color: #BB56A9;
+	font-size: 13px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+h4{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: #BB56A9;
+}
+
+h2{
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: #BB56A9;
+}
+
+
+body{
+	background-color: #E1E1E1;
+
+}
+
+.slider{
+	width: 100%;
+}
+
+
+
+
+body .container .card {
+	width: 200px;
+	height: 300px;
+	box-shadow: 0px 0px 15px -4px rgba(199,199,199,1);
+
+	border-radius: 15px;
+	padding-top: 10px;
+	transition: 0.5s;
+  }
+  
+  body .container .card:nth-child(1) .box .content a {
+	background: #00B6A4;
+  }
+  
+  body .container .card:nth-child(2) .box .content a {
+	background: #BB56A9;
+  }
+  
+  body .container .card:nth-child(3) .box .content a {
+	background: #23c186;
+  }
+  
+  body .container .card .box {
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.5s;
+  }
+  
+  body .container .card .box:hover {
+	transform: translateY(-20px);
+  }
+  
+  body .container .card .box:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.03);
+  }
+  
+  body .container .card .box .content {
+
+	padding-bottom: 10px;
+	text-align: center;
+  }
+  
+  
+  body .container .card .box .content h3 {
+	font-size: 14px;
+	color: #fff;
+	z-index: 1;
+	transition: 0.5s;
+	font-family: 'Poppins', sans-serif;
+
+  }
+  
+  body .container .card .box .content p {
+	font-size: 16px;
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.9);
+	z-index: 1;
+	transition: 0.5s;
+	font-family: 'Poppins', sans-serif;
+  }
+  
+  body .container .card .box .content a {
+	position: relative;
+	padding: 8px 20px;
+	background: black;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	margin-top: 20px;
+
+	transition: 0.5s;
+  }
+	
+  body .container .card .box .content a:hover {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+	background: #fff;
+	color: #000;
+  }
+
