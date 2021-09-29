@@ -3,6 +3,19 @@ main img {
 	/* margin-bottom: 10px; */
 }
 
+.content a {
+	font-size: 12px;
+}
+
+.nav_interna a{
+	font-size: 16px;
+}
+.content h2 {
+	background-color: #26abfa ;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: white;
+}
 .card_container {
 	max-width: 90%;
 	display: flex;
