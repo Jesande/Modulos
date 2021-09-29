@@ -242,6 +242,9 @@ color: white;
 	}
 
 /* -------------------------------------- slide 1 */
+.carrera_path {
+	max-width: 75%;
+}
 
 .content {
 	display: flex;
