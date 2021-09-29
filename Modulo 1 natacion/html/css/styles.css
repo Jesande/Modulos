@@ -6,8 +6,7 @@
 }
 
 html {
-  /* scroll-behavior: smooth; */
-  font-size: 16px;
+  font-size: 18px;
   font-weight:normal;
   line-height: 1.5em;
 	font-family: "poppins", Arial, Helvetica, sans-serif;
@@ -244,6 +243,8 @@ color: white;
 /* -------------------------------------- slide 1 */
 .carrera_path {
 	max-width: 75%;
+	border-bottom: 1px solid rgb(187, 187, 187);
+	margin-bottom: 15px;
 }
 
 .content {
@@ -292,4 +293,23 @@ color: white;
 }
 .nav_interna a{
 	margin: 0 10px;
+}
+
+
+.close_btn {
+	padding: 10px;
+	border: 2px #FFA70C solid;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	color: #FFA70C;
+	z-index: 1;
+}
+.close_btn:hover {
+	color: #ffffff;
+	background-color: #FFA70C;
 }

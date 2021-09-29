@@ -60,7 +60,7 @@ h3 {
 
 .row1 p {
 	padding: 15px;
-	margin-bottom: 20px;
+	margin: 5px 0 20px;
 	background-color: hsl(0, 0%, 90%);
 	text-align: justify;
 	border-radius: 15px;
@@ -76,6 +76,7 @@ max-width: 40px;
 	border-radius: 10px;
 	overflow: hidden;
 }
+
 .row2 section img{
 	max-width: 100%;
 }
