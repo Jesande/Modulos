@@ -1,11 +1,12 @@
 :root {
---background-color:#cc286b;
+--background-color:#fbc000;
 }
 
 .row1, .row2 {
 	width: 90%;
 	display: flex;
 	flex-direction: row;
+    justify-content: center;
 }
 
 .header-col1{
@@ -71,37 +72,64 @@ max-width: 40px;
 }
 
 .row2 section {
-	margin: 0 15px 30px 0;
-	max-width: 20%;
+	margin: 20px 15px 30px 0;
+	max-width: 25%;
 	border-radius: 10px;
-	overflow: hidden;
+	/* overflow: hidden; */
+}
+.row2 p {
+	margin-top: 5px;
+	padding: 10px;
+	border-radius: 10px;
+	color: #494949;
 }
 
 .row2 section img{
-	max-width: 100%;
+	max-width: 20%;
+	height: 30px;
+}
+
+.card_h {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: 10px;
 }
 
 
-.card1{
+.card_h1 {
 	background-color:#31cdc2;
 }
-
-.card2{
-	background-color:#3862fa;
+.card1 p{
+	margin-top: 5px;
+	border-radius: 10px;
+	background-color:#caebe8;
 }
 
-.card3{
-background-color:#cc286b;
+.card_h2{
+	background-color:#8a87c0;
+}
+.card2 p{
+	margin-top: 5px;
+	border-radius: 10px;
+	background-color:#bdbde5;
 }
 
-.card4{
-background-color:#fbc000;
+.card_h3{
+	background-color:#5eb130;
+}
+.card3 p{
+	margin-top: 5px;
+	border-radius: 10px;
+	background-color:#d5e4cd;
 }
 
-.card5{
-background-color:#179f38;
+.card_h4{
+	background-color:#f07f36;
+}
+.card4 p{
+	margin-top: 5px;
+	border-radius: 10px;
+	background-color:#f5e5da;
 }
 
-.card6{
-background-color:#f47900;
-}
