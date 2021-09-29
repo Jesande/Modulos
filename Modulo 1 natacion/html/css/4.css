@@ -72,40 +72,35 @@ max-width: 40px;
 
 .row2 section {
 	margin: 0 15px 30px 0;
-	max-width: 30%;
-}
-.row2 p {
-	margin: 5px 0;
-	/* height: 120px; */
-	padding: 15px;
+	max-width: 20%;
 	border-radius: 10px;
-	color: #525252;
+	overflow: hidden;
 }
-.card1 h3 {
-	background-color:#0093b4 ;
+.row2 section img{
+	max-width: 100%;
 }
-.card1 p {
-	margin: 5px 0;
-	padding: 15px;
-	border-radius: 10px;
-	background-color:#b9e0f3 ;
-	color: #525252;
+
+
+.card1{
+	background-color:#31cdc2;
 }
-.card1 h3 {
-	background-color:#0093b4 ;
+
+.card2{
+	background-color:#3862fa;
 }
-.card1 p {
-	background-color:#b9e0f3 ;
+
+.card3{
+background-color:#cc286b;
 }
-.card2 h3 {
-	background-color:#0b3574 ;
+
+.card4{
+background-color:#fbc000;
 }
-.card2 p {
-	background-color:#bdd2f3 ;
+
+.card5{
+background-color:#179f38;
 }
-.card3 h3 {
-	background-color:#5cb130 ;
-}
-.card3 p {
-	background-color:#c5e1b7 ;
+
+.card6{
+background-color:#f47900;
 }
