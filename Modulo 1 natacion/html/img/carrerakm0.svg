@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 481 88.4" style="enable-background:new 0 0 481 88.4;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#CEF8F4;}
 	.st1{fill:#3255C7;}
-	.st2{font-family:'Poppins-Medium';}
+	.st2{font-family:'ArialMT';}
 	.st3{font-size:10.4271px;}
 	.st4{opacity:0.39;}
 	.st5{fill:#FFFFFF;}
@@ -18,14 +18,14 @@
 <circle class="st0" cx="75" cy="55.7" r="5.7"/>
 <circle class="st0" cx="120.8" cy="55.7" r="5.7"/>
 <circle class="st0" cx="166.6" cy="55.7" r="5.7"/>
-<circle class="st0" cx="258.2" cy="55.7" r="5.7"/>
+<ellipse transform="matrix(0.2298 -0.9732 0.9732 0.2298 144.6678 294.1957)" class="st0" cx="258.2" cy="55.7" rx="5.7" ry="5.7"/>
 <circle class="st0" cx="212.4" cy="55.7" r="5.7"/>
 <circle class="st0" cx="304" cy="55.7" r="5.7"/>
 <circle class="st0" cx="349.8" cy="55.7" r="5.7"/>
 <circle class="st0" cx="395.6" cy="55.7" r="5.7"/>
 <circle class="st0" cx="441.4" cy="55.7" r="5.7"/>
 <g>
-	<text transform="matrix(1 0 0 1 23.4994 79.3621)" class="st1 st2 st3">La carrera apenas comienza</text>
+	<text transform="matrix(1 0 0 1 23.4994 79.3621)" class="st1 st2 st3">¡Listos! ¡Fuera!</text>
 </g>
 <g class="st4">
 	<g>
@@ -139,11 +139,11 @@
 			</g>
 		</g>
 		
-			<rect x="437.5" y="26.1" transform="matrix(1 -3.170385e-03 3.170385e-03 1 -0.1121 1.389)" class="st7" width="1.1" height="19.9"/>
+			<rect x="437.5" y="26.1" transform="matrix(1 -3.170369e-03 3.170369e-03 1 -0.1121 1.389)" class="st7" width="1.1" height="19.9"/>
 		
-			<rect x="437.4" y="26.9" transform="matrix(1 -3.174668e-03 3.174668e-03 1 -0.1035 1.3907)" class="st6" width="1.2" height="12.8"/>
+			<rect x="437.4" y="26.9" transform="matrix(1 -3.174652e-03 3.174652e-03 1 -0.1035 1.3907)" class="st6" width="1.2" height="12.8"/>
 		
-			<rect x="438.6" y="26.9" transform="matrix(1 -3.178591e-03 3.178591e-03 1 -0.1036 1.3956)" class="st8" width="0.8" height="12.8"/>
+			<rect x="438.6" y="26.9" transform="matrix(1 -3.178575e-03 3.178575e-03 1 -0.1036 1.3956)" class="st8" width="0.8" height="12.8"/>
 	</g>
 </g>
 <path class="st1" d="M42.5,41.2c-0.3,0.4-0.8,0.6-1.3,0.6s-1-0.2-1.3-0.6c-1-1.2-2.5-1.9-4.2-1.9s-3.2,0.7-4.2,1.9
