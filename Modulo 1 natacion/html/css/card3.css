@@ -3,7 +3,8 @@
 }
 
 .row1, .row2 {
-	width: 90%;
+	width: 75%;
+	/* margin-left: auto; */
 	display: flex;
 	flex-direction: row;
 }
