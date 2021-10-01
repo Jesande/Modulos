@@ -62,7 +62,8 @@ h2{
 }
 
 .mod6_infografia {
-  width: 80%;
+  max-width: 70%;
+  flex-shrink: 1;
 }
 .card1{
   max-width: 40%;
