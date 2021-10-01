@@ -38,7 +38,7 @@ h1{
 	font-size: 1.5em;
 	text-transform: uppercase;
 	text-align: left;
-	margin-left: 15px;
+	margin-left: 10px;
 	line-height: 1.2em;
 	color: white;
 }
@@ -67,41 +67,17 @@ h3 {
 }
 
 .header-h1 img {
-max-width: 40px;
+max-width: 30px;
 }
 
-.row2 section {
-	margin: 0 15px 30px 0;
-	max-width: 20%;
-	border-radius: 10px;
-	overflow: hidden;
-}
-
-.row2 section img{
-	max-width: 100%;
-}
-
-
-.card1{
-	background-color:#31cdc2;
-}
-
-.card2{
-	background-color:#3862fa;
-}
-
-.card3{
-background-color:#cc286b;
-}
-
-.card4{
-background-color:#fbc000;
-}
-
-.card5{
-background-color:#179f38;
-}
-
-.card6{
-background-color:#f47900;
+@media (max-width:465px) {
+	.content{
+		width: 100%;
+	}
+	h1{
+		margin-left: 10px;
+	}
+	.header-h1 img {
+		max-width: 30px;
+		}
 }

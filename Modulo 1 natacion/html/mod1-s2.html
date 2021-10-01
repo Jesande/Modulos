@@ -16,10 +16,8 @@
 </head>
 <body>
 	<div class="wraper">
-	<aside class="main-nav">
-
 		<!-- Menu para desktop -->
-		<nav id="menu">
+		<nav class="main-nav" id="menu">
 			<article> 
 				<div class="ic_caption"><img class="ic" src="img/ic_natacion.svg" alt="">
 					<p class="caption" > Modulo 1</p>
@@ -27,30 +25,32 @@
 				<h3>PLANEACIÓN INVERSA DE LA  EVALUACIÓN DE LOS APRENDIZAJES</h3>
 			</article>
 			<ul class="reset-list">
-				<li><a class="text-menu" href="#home" id="home-link">Resultados de aprendizaje</a></li>
-				<li><a class="text-menu" href="#work" id="projects-link">Criterios de evaluación</a></li>
-				<li><a class="text-menu" href="#about" id="about-link">Ejes temáticos</a></li>
-				<li><a class="text-menu" href="#contact" id="contact-link">Pregunta</a> </li>
-				<li><a class="text-menu" href="#contact" id="contact-link">Evaluación</a> </li>
+				<li><a class="text-menu" href="mod1-s1.html" id="resultados-link">Resultados de aprendizaje</a></li>
+				<li><a class="text-menu" href="mod1-s2.html" id="criterios-link">Criterios de evaluación</a></li>
+				<li><a class="text-menu" href="mod1-card1.html" id="ejes-link">Ejes temáticos</a></li>
+				<li><a class="text-menu" href="mod1-card2.html" id="pregunta-link">Pregunta</a> </li>
+				<li><a class="text-menu" href="mod1-card3.html" id="evaluacion-link">Evaluación</a> </li>
 			</ul>
 		</nav>
+
 	<!-- Menu para mobile -->
-		<nav class="menu-mobile">
-			<button id="menu-mobile-btn" class="menu-mobile-btn">  
-				<img src="img/icon-menu.svg" alt="">
-			</button>
+	<nav class="menu-mobile">
+		<button id="menu-mobile-btn" class="menu-mobile-btn">  
+			<img src="img/icon-menu.svg" alt="">
+		</button>
+
 			<ul id="menu-list" class="menu-mobile-list-off">
-				<li><a class="text-menu" href="#home" id="home-link">Resultados de aprendizaje</a></li>
-				<li><a class="text-menu" href="#work" id="projects-link">Criterios de evaluación</a></li>
-				<li><a class="text-menu" href="#about" id="about-link">Ejes temáticos</a></li>
-				<li><a class="text-menu" href="#contact" id="contact-link">Pregunta</a> </li>
-				<li><a class="text-menu" href="#contact" id="contact-link">Evaluación</a> </li>
-			</ul>
-		</nav>
+				<li class="ic_caption"><img class="ic" src="img/ic_natacion.svg" alt=""><p class="caption" > Modulo 1</p></li>
+			<li class="menu-mobile-modtitulo">PLANEACIÓN INVERSA DE LA  EVALUACIÓN DE LOS APRENDIZAJES</li>
+			<li><a class="text-menu" href="mod1-s1.html" id="resultados-link">Resultados de aprendizaje</a></li>
+			<li><a class="text-menu" href="mod1-s2.html" id="criterios-link">Criterios de evaluación</a></li>
+			<li><a class="text-menu" href="mod1-card1.html" id="ejes-link">Ejes temáticos</a></li>
+			<li><a class="text-menu" href="mod1-card2.html" id="pregunta-link">Pregunta</a> </li>
+			<li><a class="text-menu" href="mod1-card3.html" id="evaluacion-link">Evaluación</a> </li>
+		</ul>
+	</nav>
 
-	</aside>
-
-	<main class="content">
+	<main class="content_s2">
 		<img class="carrera_path animate__animated animate__slideInLeft" src="img/carrerakm1.svg" alt=""> 
 		<h2 style="background-color: #236fd3; padding: 15px; margin: 15px; border-radius: 15px; color: white;">Ruta para la planeación inversa de la evaluación de los aprendizajes</h2>
 		<img class=" animate__animated animate__zoomInLeft" src="img/mod1_infografia.svg" alt=""> 
@@ -99,5 +99,41 @@
 
 	</main>
 </div>
+
+<script>
+	var menuBtn = document.getElementById("menu-mobile-btn");
+  var menuList = document.getElementById("menu-list");
+
+  menuBtn.addEventListener("click", openMenu);
+  function openMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+
+  var homeLink = document.getElementById("resultados-link");
+  homeLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var projectsLink = document.getElementById("criterios-link");
+  projectsLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var aboutLink = document.getElementById("ejes-link");
+  aboutLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var contactLink = document.getElementById("pregunta-link");
+  contactLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var contactLink = document.getElementById("evaluacion-link");
+  contactLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+</script>
 </body>
 </html>

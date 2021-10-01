@@ -153,3 +153,38 @@ li{
   grid-column: 5/6;
   background-color: #c8c3e6;
 }
+
+
+@media (max-width:465px) {
+	.content{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	h1{
+		margin-left: 10px;
+	}
+	.header-h1 img {
+		max-width: 30px;
+	}
+
+
+ul{
+  color: #494949;
+  text-align: left;
+  padding: 5px;
+  border-radius: 0 0 15px 15px;
+}
+
+li{
+  margin: 5px 20px;
+}
+.row2 {
+  margin: 0;
+  overflow: auto;
+  white-space: nowrap;
+  justify-content: start;
+
+  }
+
+}

@@ -8,17 +8,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" href="css/3.css">
+  <link rel="stylesheet" type="text/css" href="css/card1.css">
 
 	<title>1. PLANEACIÓN INVERSA DE LA  EVALUACIÓN DE LOS APRENDIZAJES</title>
 
 </head>
 <body>
 	<div class="wraper">
-	<aside class="main-nav">
 
 		<!-- Menu para desktop -->
-		<nav id="menu">
+		<nav class="main-nav" id="menu">
 			<article> 
 				<div class="ic_caption"><img class="ic" src="img/ic_natacion.svg" alt="">
 					<p class="caption" > Modulo 1</p>
@@ -26,28 +25,31 @@
 				<h3>PLANEACIÓN INVERSA DE LA  EVALUACIÓN DE LOS APRENDIZAJES</h3>
 			</article>
 			<ul class="reset-list">
-				<li><a class="text-menu" href="#home" id="home-link">Resultados de aprendizaje</a></li>
-				<li><a class="text-menu" href="#work" id="projects-link">Criterios de evaluación</a></li>
-				<li><a class="text-menu" href="#about" id="about-link">Ejes temáticos</a></li>
-				<li><a class="text-menu" href="#contact" id="contact-link">Pregunta</a> </li>
-				<li><a class="text-menu" href="#contact" id="contact-link">Evaluación</a> </li>
-			</ul>
-		</nav>
-	<!-- Menu para mobile -->
-		<nav class="menu-mobile">
-			<button id="menu-mobile-btn" class="menu-mobile-btn">  
-				<img src="img/icon-menu.svg" alt="">
-			</button>
-			<ul id="menu-list" class="menu-mobile-list-off">
-				<li><a class="text-menu" href="#home" id="home-link">Resultados de aprendizaje</a></li>
-				<li><a class="text-menu" href="#work" id="projects-link">Criterios de evaluación</a></li>
-				<li><a class="text-menu" href="#about" id="about-link">Ejes temáticos</a></li>
-				<li><a class="text-menu" href="#contact" id="contact-link">Pregunta</a> </li>
-				<li><a class="text-menu" href="#contact" id="contact-link">Evaluación</a> </li>
+				<li><a class="text-menu" href="mod1-s1.html" id="resultados-link">Resultados de aprendizaje</a></li>
+				<li><a class="text-menu" href="mod1-s2.html" id="criterios-link">Criterios de evaluación</a></li>
+				<li><a class="text-menu" href="mod1-card1.html" id="ejes-link">Ejes temáticos</a></li>
+				<li><a class="text-menu" href="mod1-card2.html" id="pregunta-link">Pregunta</a> </li>
+				<li><a class="text-menu" href="mod1-card3.html" id="evaluacion-link">Evaluación</a> </li>
 			</ul>
 		</nav>
 
-	</aside>
+	<!-- Menu para mobile -->
+	<nav class="menu-mobile">
+		<button id="menu-mobile-btn" class="menu-mobile-btn">  
+			<img src="img/icon-menu.svg" alt="">
+		</button>
+
+			<ul id="menu-list" class="menu-mobile-list-off">
+				<li class="ic_caption"><img class="ic" src="img/ic_natacion.svg" alt=""><p class="caption" > Modulo 1</p></li>
+			<li class="menu-mobile-modtitulo">PLANEACIÓN INVERSA DE LA  EVALUACIÓN DE LOS APRENDIZAJES</li>
+			<li><a class="text-menu" href="mod1-s1.html" id="resultados-link">Resultados de aprendizaje</a></li>
+			<li><a class="text-menu" href="mod1-s2.html" id="criterios-link">Criterios de evaluación</a></li>
+			<li><a class="text-menu" href="mod1-card1.html" id="ejes-link">Ejes temáticos</a></li>
+			<li><a class="text-menu" href="mod1-card2.html" id="pregunta-link">Pregunta</a> </li>
+			<li><a class="text-menu" href="mod1-card3.html" id="evaluacion-link">Evaluación</a> </li>
+		</ul>
+	</nav>
+
 
 	<main class="content">
 		<a class="close_btn" href="mod1-s2.html">X</a>
@@ -97,5 +99,42 @@
 
 	</main>
 </div>
+
+
+<script>
+	var menuBtn = document.getElementById("menu-mobile-btn");
+  var menuList = document.getElementById("menu-list");
+
+  menuBtn.addEventListener("click", openMenu);
+  function openMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+
+  var homeLink = document.getElementById("resultados-link");
+  homeLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var projectsLink = document.getElementById("criterios-link");
+  projectsLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var aboutLink = document.getElementById("ejes-link");
+  aboutLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var contactLink = document.getElementById("pregunta-link");
+  contactLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var contactLink = document.getElementById("evaluacion-link");
+  contactLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+</script>
 </body>
 </html>
