@@ -11,9 +11,18 @@ main img {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: flex-start;
-
 }
-
+/* @media screen and (max-width: 380px) {
+.card_container {
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+} */
 
 .card_link {
 	max-width: 16%;

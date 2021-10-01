@@ -145,19 +145,35 @@ color: white;
 }
 
 @media (max-width:465px) {
+
 	#menu {
 		display: none;
+	}
+
+	.content_index{
+		margin-top: 40px;
+		width: 100%;
 	}
 	
 	.menu-mobile {
 		display: block;
 	}
 	
+	.menu-mobile-list-on, .menu-mobile-list-on li:first-child{
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+	
 	/* hamburger menu */
 	#menu-mobile-btn {
 		display: inline-block;
 		border: none;
-		background-color: var(--light);
+		padding: 10px;
+		background-color: none;
+		border-radius: 10px;
+		margin: 10px;
+		position: absolute;
 	}
 
 	.menu-mobile-list-off {
@@ -166,7 +182,7 @@ color: white;
 
 		position: absolute;
 		top: 60px;
-		right: -100%;
+		right: 100%;
 
 		display: flex;
 		flex-direction: column;
@@ -179,29 +195,44 @@ color: white;
 	}
 	
 	.menu-mobile-list-on {
-		width: 100%;
+		width:100%;
 		height: 100vh;
 		
 		position: absolute;
 		top: 60px;
-		right: 0;
-		
+		left: 0;
+		z-index: 1;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		
 		list-style: none;
-		background-color:  var(--grey);
+		background-color:  white;
 		transition: all 200ms ease-out;
 	}
 
 	.menu-mobile-list-on li {
-		font-size: 1rem;
-		padding: 10px 0;
-		width: 120px;
+		width: 80%;
+		padding:8px;
+		list-style: none;
+		margin: 10px 0;
+		border: #e6810f solid 1px;
+		border-radius: 10px;
+		font-size: 1.4em;
+		font-family: "poppins";
+		text-align: center;
+	}
+	.menu-mobile-list-on a{
+		color: #e6810f;
+	}
+
+	.menu-mobile-list-on, .menu-mobile-list-on	.menu-mobile-modtitulo {
+		border: none;
+		color: royalblue;
+		text-align: left;	
+		margin-top: 5px;
 		margin-bottom: 30px;
-		border-bottom: #000000 solid 2px;
 	}
 
 }
@@ -263,9 +294,6 @@ color: white;
 	align-items: center;
 }
 .mod_header img{
-	/* position: absolute;
-	right: 20px; */
-	/* top: 150px; */
 	width: 300px;
 
 }
@@ -312,4 +340,40 @@ color: white;
 .close_btn:hover {
 	color: #ffffff;
 	background-color: #FFA70C;
+}
+
+@media (max-width:465px) {
+	.carrera_path {
+		max-width: 90%;
+
+		margin: 60px 0 30px 0;
+	}
+
+	
+	.content {
+		width: 100%;
+	}
+
+	.mod_header img{
+		width: 40%;
+	
+	}
+	.mod_header h2{
+		padding: 10px;
+		margin: 1em;
+		}
+	
+	.content_intro{
+		margin: 0 3em;
+		font-size: 1.2em;
+		line-height: 1.6em;
+		text-align: justify;
+	}
+	
+
+
+	.nav_interna{
+		margin: 40px 0;
+	}
+
 }
