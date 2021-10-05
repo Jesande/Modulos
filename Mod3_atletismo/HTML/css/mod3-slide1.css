@@ -1,0 +1,23 @@
+.header-h1 {
+	background-color: var(--sd2-bgcolor);
+}
+
+.header_h2 h2{
+	background-color: var(--sd2-bgcolor);
+	text-align: left;
+}
+
+.header_h2 h3{
+	background-color: #f1e4ee;
+	border-bottom: var(--sd2-bgcolor) 1px solid;
+}
+
+.header_h2 p{
+	background-color: #f1e4ee;
+}
+
+.row2 h3{
+	background-color: #f1e4ee;
+	color: var(--sd2-bgcolor);
+}
+	
