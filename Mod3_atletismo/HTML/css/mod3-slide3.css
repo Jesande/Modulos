@@ -1,0 +1,23 @@
+.header-h1 {
+	background-color: #ffa300;
+}
+
+.header_h2 h2{
+	background-color:  #ffa300;
+	text-align: left;
+}
+
+.header_h2 h3{
+	background-color: #ecdfc7;
+	border-bottom:  #ffa300 1px solid;
+}
+
+.header_h2 p{
+	background-color: #ecdfc7;
+}
+
+.row2 h3{
+	background-color: #ecdfc7;
+	color: #d87a00;
+}
+	
