@@ -1,0 +1,29 @@
+.intro_contenedor {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.col1, .col2 {
+  width: 50%;
+}
+
+.col1 h2{
+  color: white;
+  background-color: #7959ac;
+  text-align: left;
+  max-width: 450px;
+}
+
+.col1 p{
+  color: #605961;
+  margin: 10px 0 30px;
+  text-align: left;
+  max-width: 450px;
+}
+
+.intro_contenedor img{
+  mix-blend-mode: multiply;
+}

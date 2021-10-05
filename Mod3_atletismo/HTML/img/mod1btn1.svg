@@ -8,21 +8,21 @@
 	.st2{fill:#FFFFFF;}
 </style>
 <g>
-	<g id="e3c3f85a-8d35-4580-8713-0eda15df28dc">
-		<g id="b697b06b-f2e5-495f-8c90-2355475d909e">
+	<g id="e3c3f85a-8d35-4580-8713-0eda15df28dc_1_">
+		<g id="b697b06b-f2e5-495f-8c90-2355475d909e_1_">
 			
-				<radialGradient id="SVGID_1_" cx="34.07" cy="35.22" r="34.07" gradientTransform="matrix(1 0 0 -1 0 69.29)" gradientUnits="userSpaceOnUse">
+				<radialGradient id="SVGID_1_" cx="34" cy="594.79" r="34.1399" gradientTransform="matrix(1 0 0 1 0 -560)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0.55" style="stop-color:#45C1F1"/>
 				<stop  offset="1" style="stop-color:#027295"/>
 			</radialGradient>
-			<circle class="st0" cx="34.1" cy="34.1" r="34.1"/>
+			<circle class="st0" cx="34" cy="34.8" r="34.2"/>
 			
-				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="14.8013" y1="15.9513" x2="53.3387" y2="54.4887" gradientTransform="matrix(1 0 0 -1 0 69.29)">
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="14.7103" y1="614.0797" x2="53.3607" y2="575.4293" gradientTransform="matrix(1 0 0 1 0 -560)">
 				<stop  offset="0.38" style="stop-color:#45C1F1"/>
 				<stop  offset="1" style="stop-color:#027295"/>
 			</linearGradient>
-			<circle class="st1" cx="34.1" cy="34.1" r="27.2"/>
-			<path class="st2" d="M24.9,25.4v-10h16.3v35.2H30V25.4H24.9z"/>
+			<circle class="st1" cx="34" cy="34.8" r="27.3"/>
+			<path class="st2" d="M24.8,26.1V16h16.3v35.3H29.9V26.1H24.8z"/>
 		</g>
 	</g>
 </g>
