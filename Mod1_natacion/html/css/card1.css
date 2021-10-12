@@ -1,0 +1,164 @@
+:root {
+	--background-color:#31cdc2;
+	}
+
+.row1, .row2 {
+	width: 70%;
+	/* margin-left: auto; */
+	margin-right: 2em;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.row2 {
+	flex-wrap: wrap;
+}
+
+.header-col1{
+	width: 60%;
+}
+.header-col2{
+	width: 40%;
+}
+.header-col2 img{ 
+	width: 90%;
+}
+
+
+.titulo {
+	display: flex;
+	flex-direction: column;
+}
+
+.header-h1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: var(--background-color);
+	border-radius: 15px;
+	padding: 10px;
+}
+
+
+h1{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: 15px;
+	line-height: 1.2em;
+	color: white;
+}
+
+h2{
+	background-color: var(--background-color);
+	border-radius: 15px;
+	padding: 15px;
+	line-height: 1.2em;
+	color: white;
+}
+
+h3 {
+	border-radius: 10px;
+	padding: 10px;
+	line-height: 1.2em;
+	color: white;
+}
+
+.row1 p {
+	padding: 15px;
+	margin: 5px 0 20px;
+	background-color: hsl(0, 0%, 90%);
+	text-align: justify;
+	border-radius: 15px;
+}
+
+.header-h1 img {
+max-width: 40px;
+}
+
+.row2 section {
+	margin: 0 15px 30px 0;
+	max-width: 30%;
+}
+
+.row2 h3 {
+		border-radius: 10px 10px 0 0;
+}
+
+.row2 p {
+	margin: 5px 0;
+	padding: 15px;
+	border-radius: 0 0 10px 10px;
+	color: #525252;
+}
+.card1 h3 {
+	background-color:#0093b4 ;
+}
+.card1 p {
+	background-color:#b9e0f3 ;
+}
+.card1 h3 {
+	background-color:#0093b4 ;
+}
+.card1 p {
+	background-color:#b9e0f3 ;
+}
+.card2 h3 {
+	background-color:#0b3574 ;
+}
+.card2 p {
+	background-color:#bdd2f3 ;
+}
+.card3 h3 {
+	background-color:#5cb130 ;
+}
+.card3 p {
+	background-color:#c5e1b7 ;
+}
+
+
+@media (max-width:465px) {
+.row1, .row2 {
+		width: 100%;
+		margin: 0;
+		padding: 2em;
+	}
+
+	.content {
+	max-width: 100% ;
+	width: 100%;}
+
+
+	.carrera_path {
+		max-width: 80%;
+		margin-right: 20px;
+		margin-bottom: 10px;
+	}
+	
+	.row2 section {
+		margin: 5px;
+		max-width: 90%;
+	}
+	
+	.header-h1 img{
+		width: 30px;
+	}
+
+	 p{
+		 font-size: 10px;
+		 line-height: 1.4em;
+		 hyphens: auto;
+	 }
+
+.header-col1{
+	width: 50%;
+}
+.header-col2{
+	width: 40%;
+}
+.header-col2 img{ 
+	width: 100%;
+}
+
+}
