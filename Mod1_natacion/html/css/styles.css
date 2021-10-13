@@ -252,11 +252,27 @@ color: white;
 	box-shadow: 0px 0px 6px 0px hsl(0deg 0% 69%);
 }
 
+.btn_disable {
+	opacity: 30%;
+		width: 150px;
+		padding: 8px 20px;
+		border-radius: 12px;
+		font-size: 1.2em;
+		line-height: 1.4em;
+		color: white;
+		transition: 0.3s;
+		text-align: center;
+		background: #ff8e0e;
+		color: white;
+}
+
 	@media (max-width:745px) {
 		html {
 			font-size: 12px;
 		}
 	}
+
+	
 	
 	@media (max-width:465px) {
 		html {
@@ -314,9 +330,12 @@ color: white;
 }
 .nav_interna{
 	margin: 0 0 30px;
+	display: flex;
+	flex-direction: row;
 }
 .nav_interna a{
 	margin: 0 10px;
+	height: 40px;
 }
 
 
@@ -375,3 +394,4 @@ color: white;
 	}
 
 }
+
