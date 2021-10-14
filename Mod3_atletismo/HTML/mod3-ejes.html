@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/mod3.css">
+  <link rel="stylesheet" type="text/css" href="css/mod3_internas.css">
+
+	<title>3. TÉCNICAS E INSTRUMENTOS DE EVALUACIÓN</title>
+
+</head>
+<body>
+	<div class="wraper">
+		<!-- Menu para desktop -->
+		<nav class="main-nav" id="menu">
+			<article> 
+				<div class="ic_caption"><img class="ic" src="img/ic_atleta.svg" alt="">
+					<p class="caption" > Módulo 3</p>
+				</div>
+				<h3>TÉCNICAS E INSTRUMENTOS DE EVALUACIÓN</h3>
+			</article>
+			<ul class="reset-list">
+				<li><a class="text-menu" href="mod3-presentacion.html" id="presentacion-link">Presentación</a></li>
+				<li><a class="text-menu" href="mod3-resultados.html" id="resultados-link">Resultados de aprendizaje</a></li>
+				<li><a class="text-menu" href="mod3-criterios.html" id="criterios-link">Criterios de evaluación</a></li>
+				<li><a class="text-menu" href="mod3-ejes.html" id="ejes-link">Ejes temáticos</a></li>
+				<li><a class="text-menu" href="mod3-s1.html" id="contenido-link">Contenidos de aprendizaje</a> </li>
+				<li><a class="text-menu" href="mod3-evaluacion.html" id="evaluacion-link">Evaluación</a> </li>
+			</ul>
+		</nav>
+
+	<!-- Menu para mobile -->
+	<nav class="menu-mobile">
+		<button id="menu-mobile-btn" class="menu-mobile-btn">  
+			<img src="img/icon-menu.svg" alt="">
+		</button>
+
+			<ul id="menu-list" class="menu-mobile-list-off">
+				<li class="ic_caption"><img class="ic" src="img/ic_atleta.svg" alt=""><p class="caption"> Módulo 3</p></li>
+			<li class="menu-mobile-modtitulo">TÉCNICAS E INSTRUMENTOS DE EVALUACIÓN</li>
+			<li><a class="text-menu" href="mod3-presentacion.html" id="presentacion-link">Presentación</a></li>
+			<li><a class="text-menu" href="mod3-resultados.html" id="resultados-link">Resultados de aprendizaje</a></li>
+			<li><a class="text-menu" href="mod3-criterios.html" id="criterios-link">Criterios de evaluación</a></li>
+			<li><a class="text-menu" href="mod3-ejes.html" id="ejes-link">Ejes temáticos</a></li>
+			<li><a class="text-menu" href="mod3-s1.html" id="contenido-link">Contenidos de aprendizaje</a> </li>
+			<li><a class="text-menu" href="mod3-evaluacion.html" id="evaluacion-link">Evaluación</a> </li>
+		</ul>
+	</nav>
+
+
+	<main class="content_internas">
+		
+		<img class="carrera_path" src="img/avance-carrera1.svg" alt=""> 
+		<section>
+			<h2 class="titulo" >Ejes temáticos</h2>
+			<article class="flex_row">
+				<ul class="list_ejes">
+					<li >El Módulo de Técnicas e Instrumentos de Evaluación contempla los siguientes ejes temáticos:	</li>
+					<li>Estrategias de Evaluación.</li>
+					<li>Evidencias de Aprendizaje.</li>
+					<li>Técnicas de Evaluación.</li>
+					<li>Instrumentos de Evaluación.</li>
+				</ul>	
+				<img class="img_row" src="img/mod3-run2.jpg" alt="">
+		</article>
+		</section>
+
+	</main>
+</div>
+
+
+<script>
+	var menuBtn = document.getElementById("menu-mobile-btn");
+  var menuList = document.getElementById("menu-list");
+
+  menuBtn.addEventListener("click", openMenu);
+  function openMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+
+  var homeLink = document.getElementById("resultados-link");
+  homeLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var projectsLink = document.getElementById("criterios-link");
+  projectsLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var aboutLink = document.getElementById("ejes-link");
+  aboutLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var contactLink = document.getElementById("contenido-link");
+  contactLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+  var contactLink = document.getElementById("evaluacion-link");
+  contactLink.addEventListener("click", closeMenu);
+  function closeMenu() {
+    menuList.classList.toggle("menu-mobile-list-on")
+  }
+</script>
+</body>
+</html>

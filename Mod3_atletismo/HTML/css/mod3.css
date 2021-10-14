@@ -86,7 +86,7 @@ main {
 	font-size: .75em;
 	line-height: 1.4em;
 }
-/* 
+
 .content_index{
 	width: 70%;
 	margin-left: auto;
@@ -101,7 +101,7 @@ main {
 	line-height: 1.4em;
 }
 
-.img_mod_intro {
+/* .img_mod_intro {
   background-image: url("img/mod1header-full.jpg");
   background-position: center;
   background-size: cover;
@@ -173,6 +173,7 @@ a:hover {
 .menu-mobile {
 	display: none;
 }
+
 
 @media (max-width:465px) {
 
@@ -289,6 +290,7 @@ a:hover {
 .btn_disable {
 	opacity: 30%;
 }
+
 
 
 /* -------------------------------------- slide 1 */
