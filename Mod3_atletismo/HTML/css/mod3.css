@@ -287,12 +287,38 @@ a:hover {
 	color: white;
 	box-shadow: 0px 0px 6px 0px hsl(0deg 0% 69%);
 }
+
 .btn_disable {
-	opacity: 30%;
+		opacity: 30%;
+		width: 150px;
+		padding: 8px 20px;
+		border-radius: 12px;
+		font-size: 1.2em;
+		line-height: 1.4em;
+		color: white;
+		transition: 0.3s;
+		text-align: center;
+		background: #ff8e0e;
+		color: white;
+}
+	
+.nav_interna{
+	margin: 0 0 30px;
+	display: flex;
+	flex-direction: row;
+}
+.nav_interna a{
+	margin: 0 10px;
+	height: 40px;
 }
 
-
-
+.instruccion{
+	background-color: #dcd0ec;
+	padding: 10px 20px;
+	margin-top: 2em;
+	border-radius: 10px;
+	color: #5d418b;
+}
 /* -------------------------------------- slide 1 */
 .carrera_path {
 	max-width: 75%;

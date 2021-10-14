@@ -337,7 +337,13 @@ color: white;
 	margin: 0 10px;
 	height: 40px;
 }
-
+.instruccion{
+	background-color: #d0daec;
+	padding: 10px 20px;
+	margin-top: 2em;
+	border-radius: 10px;
+	color:royalblue;
+}
 
 .close_btn {
 	padding: 10px;
