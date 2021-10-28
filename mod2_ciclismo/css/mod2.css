@@ -301,16 +301,7 @@ a:hover {
 		background: #ff8e0e;
 		color: white;
 }
-	
-.nav_interna{
-	margin: 0 0 30px;
-	display: flex;
-	flex-direction: row;
-}
-.nav_interna a{
-	margin: 0 10px;
-	height: 40px;
-}
+
 
 .instruccion{
 	background-color: #dcd0ec;
@@ -549,5 +540,11 @@ li{
 	li{
 		margin: 5px 20px;
 	}
+
+
+.nav_interna a{
+	height: 34px;
+}
+
 
 }
